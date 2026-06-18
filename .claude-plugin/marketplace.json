@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "talk-craft",
+  "description": "Talk craft plugins for writing professional, persuasive presentations — narrative architecture, slide-level craft, and delivery, independent of any slide tool",
+  "owner": {
+    "name": "astroicers"
+  },
+  "plugins": [
+    {
+      "name": "talk-craft",
+      "version": "1.0.0",
+      "description": "Tool-agnostic rules and recipes for writing a professional presentation: Minto pyramid/SCQA/MECE, narrative arcs (Sparkline/Hero/SCQA/Raskin), assertion-evidence slides (sentence headline + visual evidence), data storytelling (Knaflic/Tufte), and delivery. Enforces 8 iron rules covering message, structure, slide craft, and delivery. Composes with slidev-deck-stack for implementation.",
+      "author": {
+        "name": "astroicers"
+      },
+      "license": "MIT",
+      "category": "presentation",
+      "source": ".",
+      "homepage": "https://github.com/astroicers/talk-craft"
+    }
+  ]
+}

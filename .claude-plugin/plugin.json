@@ -1,0 +1,20 @@
+{
+  "name": "talk-craft",
+  "version": "1.0.0",
+  "description": "Talk craft skill — tool-agnostic rules and recipes for WRITING a professional presentation: Minto pyramid/SCQA, narrative arcs, assertion-evidence slides, data-viz (Knaflic/Tufte), and delivery. Enforces 8 iron rules for message, structure, slide-level craft, and delivery. Pairs with slidev-deck-stack (the implementation layer).",
+  "author": {
+    "name": "astroicers"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/astroicers/talk-craft",
+  "repository": "https://github.com/astroicers/talk-craft",
+  "keywords": [
+    "presentation",
+    "slides",
+    "narrative",
+    "pyramid-principle",
+    "assertion-evidence",
+    "storytelling",
+    "claude-code-skill"
+  ]
+}
