@@ -2,6 +2,25 @@
 
 本專案的所有重大變更記錄於此。格式依循 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.1.0/)，版本遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)。
 
+## [1.1.0] - 2026-06-18
+
+### Added
+
+- `references/field-patterns.md`：技術 / 實戰 demo talk 的 field-tested 實戰招式——refrain 鼓點、
+  累積式進度地圖、demo 當故事（setup→tension→reveal→payoff）、延伸類比、抽象↔具體對照表、
+  賭注接地、戰果計分板、競品定位表、鏡像結構，外加資安 / 紅隊 / 雲端子節（ATT&CK 骨架、
+  kill-chain 敘事弧、live exploit 安全網 + OPSEC、免責頁），並附公開講題範例研究清單。
+- 招式來自實際交付的 conference talk 與公認優秀講題（DEF CON / Black Hat best-of、SANS SEC403 等）
+  萃取，於 `sources.md` / `.fact-check.md` 標明為 practitioner 模式、非書本原典。
+
+### Changed
+
+- `SKILL.md` 選型表與 references 路由表新增「技術 demo / 實戰 walkthrough / 資安攻防」一列，
+  description / triggers 補實戰 demo 相關詞。
+- `delivery.md` 補 hook 具體可仿例與「受眾自評三問」CTA 變體、demo-as-story 交叉連結；
+  `talk-types.md` 新增實戰 demo 列；`narrative-arcs.md` 弧 menu 新增「旅程 / 走查弧（kill-chain）」。
+- `README.md` 結構樹與方法論說明、CI `validate.yml`（references 7 → 8）同步更新。
+
 ## [1.0.0] - 2026-06-18
 
 首個正式版。專業簡報撰寫（內容/敘事/邏輯）的 Claude Code skill / plugin，工具無關。

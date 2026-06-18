@@ -39,6 +39,7 @@
 | **STAR** | Situation-Task-Action-Result | 述職、個案、面試 | 行為敘事 |
 | **BLUF** | Bottom Line Up Front（結論先講，極短） | 極短匯報、高層 | 軍事/顧問 |
 | **Raskin 戰略敘事** | 見下 §5 | pitch、產品定位 | Andy Raskin |
+| **旅程 / 走查弧** | 偵察→突破→立足→橫向→收割（kill-chain）；逐步推進、累積進度 | 實戰 demo、攻防走查、技術 walkthrough | field-patterns.md |
 
 判斷：**被說服**（要對方行動/相信）→ Sparkline / Hero / Raskin（有張力、有情感）；
 **被告知**（要對方理解/決策）→ 金字塔 / SCQA / Assertion-Evidence（清楚、可掃描）。

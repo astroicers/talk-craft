@@ -27,6 +27,21 @@
 - Knaflic：readingraphics.com/book-summary-storytelling-with-data；onlinedegrees.sandiego.edu
 - Kawasaki：kruzeconsulting.com/blog/guy-kawasaki-pitch-deck；alexanderjarvis.com（批判觀點）
 
+## 實戰模式來源（field-patterns.md）
+
+`field-patterns.md` 的招式來自**實際交付過的 conference talk 與公認優秀講題**的萃取，
+屬 practitioner 模式、**非書本原典**；各招已交叉對接本 skill 既有的已查證概念。
+拆解結構與交付用的公認講題 / 方法來源：
+
+- DEF CON / Black Hat 經典講題彙整：Dark Reading〈Best of Black Hat: 20 Epic Talks in 20 Years〉、
+  CSO Online〈11 top DEF CON and Black Hat talks of all time〉、PortSwigger Daily Swig 的 best-of。
+- 範例招式（各示範一招）：Jeep 遠端入侵（DEF CON 23）、Barnaby Jack Jackpotting ATMs（Black Hat 2010）、
+  Samy Kamkar「How I Met Your Girlfriend」（DEF CON 18）、「The Cavalry Isn't Coming」（DEF CON 21）、
+  Orange Tsai SSRF bypass（Black Hat 2017）。
+- 資安簡報方法：SANS SEC403（Secrets of a Successful Cybersecurity Presentation）。
+- 通用技術 talk 交付：Nina Zakharenko〈Ultimate Guide to Memorable Tech Talks〉、
+  Hacking with Swift〈How to deliver a talk at a programming conference〉。
+
 ## GitHub skill（同領域 skill，授權狀態）
 
 | skill | 貢獻 | 授權 |

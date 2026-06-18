@@ -7,7 +7,8 @@
 涵蓋方法論：Minto 金字塔原理 + SCQA + MECE、敘事弧（Sparkline / Hero / SCQA / Raskin 戰略
 敘事 等）、ghost deck / dot-dash 骨架、Assertion-Evidence 投影片（句子標題 + 視覺證據，
 Penn State 實證）、資料敘事（Knaflic 六堂課 + Tufte）、交付（throughline / STAR / 演練 /
-demo 安全網）、以及依 talk 類型的框架選型。
+demo 安全網）、依 talk 類型的框架選型、以及技術 / 實戰 demo talk 的 field-tested 實戰招式
+（refrain / 進度地圖 / demo 當故事 / ATT&CK / kill-chain，含資安子節）。
 
 ## 結構
 
@@ -21,7 +22,7 @@ talk-craft/
 ├── .fact-check.md              # 簡報框架 / 來源查證紀錄（對照原典與權威來源）
 ├── .github/
 │   └── workflows/
-│       └── validate.yml        # CI：驗 JSON / SKILL frontmatter / 7 references 齊全
+│       └── validate.yml        # CI：驗 JSON / SKILL frontmatter / 8 references 齊全
 ├── .claude-plugin/
 │   ├── marketplace.json        # Claude Code Marketplace 定義
 │   └── plugin.json             # Plugin 描述
@@ -35,7 +36,8 @@ talk-craft/
             ├── delivery.md         # throughline、STAR、時間預算、演練、speaker notes、demo 安全網
             ├── talk-types.md       # talk 類型 → 框架對應（研究/顧問/pitch/keynote/數據）
             ├── anti-patterns.md    # 反模式對照表 + 上台前檢查清單
-            └── sources.md          # 完整素材來源（書 / 學術 / web / GitHub skill）
+            ├── field-patterns.md   # 技術 / 實戰 demo talk 的 field-tested 實戰招式（含資安子節）
+            └── sources.md          # 完整素材來源（書 / 學術 / web / GitHub skill / 公開講題）
 ```
 
 ## 安裝

@@ -4,14 +4,15 @@ description: |
   專業簡報撰寫規範（工具無關，管「寫什麼」不管「用什麼工具做」），涵蓋 Minto 金字塔/SCQA/MECE
   + 敘事弧（Sparkline / Hero / SCQA / Raskin）+ ghost deck/dot-dash 骨架 + Assertion-Evidence
   投影片（句子標題 + 視覺證據）+ action title + 訊噪比與認知負荷 + 資料敘事（Knaflic/Tufte）
-  + 交付（throughline / STAR / 演練 / demo 安全網）+ 依 talk 類型選框架。
+  + 交付（throughline / STAR / 演練 / demo 安全網）+ 依 talk 類型選框架
+  + 技術 / 實戰 demo talk 的 field-tested 實戰招式（refrain / 進度地圖 / demo 當故事 / kill-chain / ATT&CK 骨架）。
   當你要寫、規劃或改一份簡報、研討會 talk、pitch、技術分享、述職的「內容與論證」時必須載入——
   與做投影片的工具無關，先把內容想清楚再開 Slidev/PPT。
   Handles: 定 governing thought、選敘事弧、排 ghost deck、下 action title、每頁 assertion-evidence、
   圖表敘事、講者交付與演練、依類型選框架。
   Triggers: 簡報, 投影片, slides, deck, talk, pitch, 路演, 研討會, 技術分享, 述職, 匯報,
   怎麼寫簡報, 簡報結構, 敘事, storytelling, 金字塔原理, pyramid, SCQA, assertion-evidence,
-  action title, ghost deck, 開場, 結尾, 上台, 演練.
+  action title, ghost deck, 開場, 結尾, 上台, 演練, 實戰 demo, walkthrough, 攻防展示, kill chain, ATT&CK, 資安 talk.
 ---
 
 # Talk Craft — 專業簡報撰寫規範
@@ -82,6 +83,7 @@ Kawasaki/Sequoia、TED 等）的綜整，框架原典與查證紀錄見 repo 根
 | pitch / 投資人 | Kawasaki 10/20/30；Sequoia 10-slide；Raskin 戰略敘事 | [talk-types.md](references/talk-types.md) |
 | keynote / 科普 / 對外分享 | Duarte Sparkline + STAR；TED throughline | [narrative-arcs.md](references/narrative-arcs.md)、[delivery.md](references/delivery.md) |
 | 數據導向匯報 | Knaflic 六堂課 | [data-viz.md](references/data-viz.md) |
+| 技術 demo / 實戰 walkthrough / 資安攻防 | Assertion-Evidence + field-tested 實戰招式（refrain / 進度地圖 / demo 當故事 / kill-chain） | [field-patterns.md](references/field-patterns.md)、[talk-types.md](references/talk-types.md) |
 | 不確定要哪種敘事弧 | SCQA / 三幕 / Hero / Sparkline / STAR / BLUF / Raskin menu | [narrative-arcs.md](references/narrative-arcs.md) |
 
 判斷順序：先問「受眾要被**說服**還是被**告知**？」→ 說服走敘事弧（Sparkline / Raskin），
@@ -99,6 +101,7 @@ Kawasaki/Sequoia、TED 等）的綜整，框架原典與查證紀錄見 repo 根
 | 圖表選型、Knaflic 六堂課、Tufte、在圖上點 takeaway、圖表誠信 | [references/data-viz.md](references/data-viz.md) |
 | throughline、60s hook、STAR、時間預算、演練、speaker notes、demo 安全網、收尾 | [references/delivery.md](references/delivery.md) |
 | 依 talk 類型選框架（研究/顧問/pitch/keynote/數據）、pitch 結構細節 | [references/talk-types.md](references/talk-types.md) |
+| 技術 / 實戰 demo talk 的實戰招式（refrain、進度地圖、demo 當故事、延伸類比、計分板、ATT&CK / kill-chain 骨架、資安子節） | [references/field-patterns.md](references/field-patterns.md) |
 | 寫之前自檢、踩到反模式（整頁 bullet、念 agenda、slideument…）、上台前檢查 | [references/anti-patterns.md](references/anti-patterns.md) |
 | 要查框架原典 / 來源 / 授權 | [references/sources.md](references/sources.md) |
 
