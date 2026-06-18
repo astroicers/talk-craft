@@ -5,6 +5,7 @@
 | 類型 | 主框架 | 重點 | 細節參考 |
 |------|--------|------|---------|
 | **研究 / conference / 技術 talk** | Assertion-Evidence + 結構化論證 | 優先序 argument→data→layout→aesthetics；句子標題 + 視覺證據 | slide-craft.md |
+| **技術 demo / 實戰 walkthrough / 資安攻防** | Assertion-Evidence + 實戰招式 | refrain 鼓點、累積式進度地圖、demo 當故事、ATT&CK / kill-chain 骨架、live exploit 安全網 | field-patterns.md |
 | **顧問 / 商業匯報 / 述職** | Minto SCQA + 金字塔 + MECE；BLUF | 結論先行、執行摘要頁、action title 一路到底 | narrative-arcs.md |
 | **pitch / 投資人** | Kawasaki 10/20/30；Sequoia 10-slide；Raskin 戰略敘事 | 見下 §1 | narrative-arcs.md §5 |
 | **keynote / 科普 / 對外分享** | Duarte Sparkline + STAR；TED throughline | contrast 推進、設計一個難忘時刻 | narrative-arcs.md、delivery.md |

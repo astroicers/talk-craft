@@ -34,7 +34,7 @@ jobs:
 
       - name: Check all references exist
         run: |
-          for r in narrative-arcs slide-craft data-viz delivery talk-types anti-patterns sources; do
+          for r in narrative-arcs slide-craft data-viz delivery talk-types anti-patterns field-patterns sources; do
             test -f "skills/talk-craft/references/$r.md" || { echo "❌ 缺 references/$r.md"; exit 1; }
           done
-          echo "✅ 7 份 references 齊全"
+          echo "✅ 8 份 references 齊全"
