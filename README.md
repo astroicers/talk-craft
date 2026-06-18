@@ -22,7 +22,7 @@ talk-craft/
 ├── .fact-check.md              # 簡報框架 / 來源查證紀錄（對照原典與權威來源）
 ├── .github/
 │   └── workflows/
-│       └── validate.yml        # CI：驗 JSON / SKILL frontmatter / 8 references 齊全
+│       └── validate.yml        # CI：驗 JSON / SKILL frontmatter / 10 references 齊全
 ├── .claude-plugin/
 │   ├── marketplace.json        # Claude Code Marketplace 定義
 │   └── plugin.json             # Plugin 描述
@@ -31,6 +31,8 @@ talk-craft/
         ├── SKILL.md            # 核心：五層架構 + 8 條鐵則 + 選型表 + 路由表
         └── references/         # 按需載入的完整方法論
             ├── narrative-arcs.md   # Minto 金字塔/SCQA/MECE、敘事弧 menu、ghost deck
+            ├── templates.md        # SCQA / Big Idea / ghost-deck 交棒物 填空骨架
+            ├── worked-example.md   # 從主題到 ghost-deck 的端到端走查示範
             ├── slide-craft.md      # Assertion-Evidence、action title、訊噪比、認知負荷
             ├── data-viz.md         # Knaflic 六堂課、Tufte、圖表選型與誠信
             ├── delivery.md         # throughline、STAR、時間預算、演練、speaker notes、demo 安全網
