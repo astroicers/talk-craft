@@ -24,7 +24,7 @@
 
 4. **延伸類比當解說主軸** 用觀眾**熟悉的領域**承載陌生的技術概念，並讓比喻**一路貫穿**
    （軍事 doctrine → 紅隊；偵探「真相只有一個」→ 偵測；防火牆＝大樓警衛）。
-   - 要點：比喻要能**對映回實作**，別只在標題用一次就丟。類比是「把技術講給非專家聽」最強的單一技巧。
+   - 要點：比喻要能**對映回實作**，別只在標題用一次就丟。類比是「把技術講給非專家聽」最有效的技巧之一。
    → 對接：throughline（delivery.md §1）。
 
 5. **抽象 ↔ 具體對照表** 框架 / 理論落地時，用兩欄表把「**概念 ↔ 你的實作**」逐列對齊
@@ -50,7 +50,7 @@
 ## 2. 資安 / 紅隊 / 雲端 talk 子節
 
 - **ATT&CK 當結構骨架** 用 MITRE ATT&CK tactic 順序（Initial Access → Execution → … →
-  Collection / Impact）當走查骨架、每步標 technique ID——天然 MECE，又是觀眾的共通語言。
+  Collection / Impact）當走查骨架、每步標 technique ID——近似 MECE（tactic 間實務上可能重疊），又是觀眾的共通語言。
 - **Kill-chain 敘事弧** 偵察 → 突破 → 立足 → 橫向 → 收割，是「旅程型」敘事弧的一種
   （見 narrative-arcs.md §3 弧 menu）。
 - **Live exploit 安全網 + OPSEC** live 攻防**強制**錄影 / 預期輸出 fallback（鐵則 8）；展示內容

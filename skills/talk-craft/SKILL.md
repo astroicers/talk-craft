@@ -12,7 +12,8 @@ description: |
   圖表敘事、講者交付與演練、依類型選框架。
   Triggers: 簡報, 投影片, slides, deck, talk, pitch, 路演, 研討會, 技術分享, 述職, 匯報,
   怎麼寫簡報, 簡報結構, 敘事, storytelling, 金字塔原理, pyramid, SCQA, assertion-evidence,
-  action title, ghost deck, 開場, 結尾, 上台, 演練, 實戰 demo, walkthrough, 攻防展示, kill chain, ATT&CK, 資安 talk.
+  action title, ghost deck, 開場, 結尾, 上台, 演練, 實戰 demo, walkthrough, 攻防展示, kill chain, ATT&CK, 資安 talk,
+  keynote, 演講, 簡報技巧, 資料視覺化, 圖表, data viz, storytelling with data, throughline, STAR, Minto, Duarte, Knaflic.
 ---
 
 # Talk Craft — 專業簡報撰寫規範
@@ -97,12 +98,14 @@ Kawasaki/Sequoia、TED 等）的綜整，框架原典與查證紀錄見 repo 根
 | 情境 | 讀這個檔 |
 |------|---------|
 | 定 governing thought、選敘事弧、金字塔/SCQA/MECE、排 ghost deck / dot-dash | [references/narrative-arcs.md](references/narrative-arcs.md) |
+| 要可複製的填空骨架（SCQA / Big Idea / **ghost-deck 交棒物**） | [references/templates.md](references/templates.md) |
+| 從主題到 ghost-deck 的端到端走查示範 | [references/worked-example.md](references/worked-example.md) |
 | 下 action title、每頁 assertion-evidence、訊噪比、認知負荷、rule of three | [references/slide-craft.md](references/slide-craft.md) |
 | 圖表選型、Knaflic 六堂課、Tufte、在圖上點 takeaway、圖表誠信 | [references/data-viz.md](references/data-viz.md) |
 | throughline、60s hook、STAR、時間預算、演練、speaker notes、demo 安全網、收尾 | [references/delivery.md](references/delivery.md) |
 | 依 talk 類型選框架（研究/顧問/pitch/keynote/數據）、pitch 結構細節 | [references/talk-types.md](references/talk-types.md) |
 | 技術 / 實戰 demo talk 的實戰招式（refrain、進度地圖、demo 當故事、延伸類比、計分板、ATT&CK / kill-chain 骨架、資安子節） | [references/field-patterns.md](references/field-patterns.md) |
-| 寫之前自檢、踩到反模式（整頁 bullet、念 agenda、slideument…）、上台前檢查 | [references/anti-patterns.md](references/anti-patterns.md) |
+| 寫前自檢 + **寫後驗收 gate（checklist 逐項過）**、踩到反模式（整頁 bullet、念 agenda、slideument…）、上台前檢查 | [references/anti-patterns.md](references/anti-patterns.md) |
 | 要查框架原典 / 來源 / 授權 | [references/sources.md](references/sources.md) |
 
 ## 與 AI-SOP-Protocol（ASP）及其他 skill 的關係
@@ -113,6 +116,13 @@ Kawasaki/Sequoia、TED 等）的綜整，框架原典與查證紀錄見 repo 根
 - **與 `slidev-deck-stack` 互補**：talk-craft 決定「寫什麼／怎麼組織論證」，slidev-deck-stack
   決定「怎麼用 Slidev 把它實作」。標準流程是**先 talk-craft 再 slidev**：先敲定 governing thought、
   敘事骨架、每頁 action title（鐵則 7 的「內容定稿」），再交給 slidev-deck-stack 落成 deck。
+  - **交棒物 ＝ ghost-deck artifact**（格式見 `references/templates.md` §3）：deck header
+    （`governing-thought` / `talk-type` / `audience` / `arc` / `design-direction`）＋ 每頁一個
+    `slide` 區塊（`title` / `assertion` / `exhibit` / `reveal` / `note`）。**欄位是兩 skill 的
+    共用契約**，slidev 端的消費規格在其 `references/handoff.md`，欄位字字對齊。
+  - **職責切點**：talk-craft 給 `design-direction`（設計**方向**）與**雙語內容**策略（哪種語言寫
+    標題／throughline、術語中英處理）；slidev 把 design-direction 對映到實際 theme、把 exhibit
+    對映到 layout、並處理中文**字型**落地。
 - **與 `visual-web-stack` 並列**：三者都是知識層 skill，各管一個領域（網頁技術棧 / Slidev 機制 /
   簡報內容），互不重疊。
 - 品質門檻（G1–G6）、commit 流程、ADR 紀律 → 聽 ASP。

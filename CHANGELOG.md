@@ -2,6 +2,29 @@
 
 本專案的所有重大變更記錄於此。格式依循 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.1.0/)，版本遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)。
 
+## [1.2.0] - 2026-06-18
+
+### Added
+
+- `references/templates.md`：可複製填空骨架——SCQA 執行摘要、Knaflic Big Idea worksheet、
+  **ghost-deck 交棒物**（與 slidev-deck-stack 的共用契約：deck header + 每頁 `slide` 區塊
+  title/assertion/exhibit/reveal/note）。
+- `references/worked-example.md`：從主題到 ghost-deck 的端到端走查示範（不附成品 deck）。
+
+### Changed
+
+- `SKILL.md`：在「與 slidev-deck-stack 互補」寫死 ghost-deck 交棒契約與職責切點
+  （design-direction／雙語內容歸 talk-craft；theme／font 歸 slidev）；references 路由表加
+  templates / worked-example 兩列；triggers 補 keynote / data viz / throughline / STAR /
+  Minto / Duarte / Knaflic；anti-patterns checklist 標為寫後驗收 gate。
+- `slide-craft.md`：句子標題規格拆中英雙版（英文 8–14 words；中文約 15–25 字）；
+  「統計顯著」措辭改引原典 p<.01。
+- `.fact-check.md` #3：改引 Garner & Alley (2013) 原典並註明 WUSTL 為二手摘要；#2 移除幽靈
+  `~28pt` 規格。
+- `field-patterns.md`：去兩處越界絕對化措辭（「最強單一技巧」→「最有效之一」；ATT&CK
+  「天然 MECE」→「近似 MECE」）。
+- `README.md` 結構樹／CI 註解、`validate.yml`（references 8 → 10）同步。
+
 ## [1.1.0] - 2026-06-18
 
 ### Added
