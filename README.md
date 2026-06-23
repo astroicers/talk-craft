@@ -10,6 +10,26 @@ Penn State 實證）、資料敘事（Knaflic 六堂課 + Tufte）、交付（th
 demo 安全網）、依 talk 類型的框架選型、以及技術 / 實戰 demo talk 的 field-tested 實戰招式
 （refrain / 進度地圖 / demo 當故事 / ATT&CK / kill-chain，含資安子節）。
 
+## 快速上手（5 分鐘）
+
+簡報做到一半才發現結構不對、整份重排？先把「要講什麼、怎麼證」定下來，再開投影片軟體。
+
+1. **裝**：`/plugin marketplace add astroicers/talk-craft`（或 `npx skills add astroicers/talk-craft`）。
+2. 在對話說：「用 talk-craft 幫我規劃一場 about X 的簡報」。
+3. 它先定 **governing thought**（一句話主張）→ 選**敘事弧** → 排 **ghost deck**（每頁只寫標題 + 證據型別）。
+4. 把標題由上往下串讀，要像一段論證；每頁過一次「So What？」。
+5. 把 ghost deck 交給 `slidev-deck-stack` 落成實際 deck（交棒格式見 `references/templates.md` §3）。
+
+## 術語速查
+
+- **governing thought** — 全場想讓人記住的那一句話主張。
+- **SCQA** — 開場結構：現況 → 衝突 → 問題 → 答案（Minto）。
+- **ghost deck** — 只寫每頁標題 + 證據型別的骨架，先驗結構再做頁。
+- **Assertion-Evidence** — 句子標題（完整論點句）+ 視覺證據、不用 bullet（Penn State 實證）。
+- **action title** — 標題寫成完整論點，不寫主題標籤（「市場成長但破碎」而非「市場分析」）。
+
+（完整方法見 `SKILL.md` 與 `references/`。）
+
 ## 結構
 
 ```

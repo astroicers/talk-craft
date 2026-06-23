@@ -128,6 +128,14 @@ Kawasaki/Sequoia、TED 等）的綜整，框架原典與查證紀錄見 repo 根
 - 品質門檻（G1–G6）、commit 流程、ADR 紀律 → 聽 ASP。
 - 衝突時：工作流程聽 ASP；簡報內容與論證聽本 skill；Slidev 實作細節聽 slidev-deck-stack。
 
+## 邊界（這個 skill 不做什麼 / 何時別用）
+
+- 給你**結構與論證**，不給你**品味、原創或記憶點**——救不了一個本身無聊的題目。
+- 管「寫什麼」，**不碰投影片視覺 / 字型 / 動畫**（那是 slidev-deck-stack）。
+- 規範是**方法論快照**、不是保證：照做能避開常見壞味，但好不好仍靠你的判斷與內容。
+- **可攜底線**：本 skill 本質是 markdown + YAML frontmatter——不支援的 runtime 直接把 `SKILL.md`
+  貼進去即可用。「Cursor / opencode 通用」目前**未實測**，以此底線為準。
+
 在做簡報的專案 CLAUDE.md 加入一行即繼承本規範：
 
 ```
