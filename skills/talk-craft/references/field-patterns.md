@@ -47,6 +47,20 @@
    （逐步偵測 / 防禦），讓兩邊 payoff 對齊、好記。
    → 對接：MECE / 平行結構（narrative-arcs.md §2）。
 
+10. **動畫即解說（animated explainer）** 抽象機制（協定、資料流、零信任這類概念）用一段**會演的圖**
+    講，比靜態框圖好記。四個可複用手法：
+    - **caption 與動畫階段同步**：一句話隨當前動畫階段換——畫面在演、字在解說。這正是
+      Assertion-Evidence 的動態版（句子說論點、視覺當證據）。
+    - **before/after 左右對照迴圈**：同一段迴圈裡並排「舊做法 vs 新做法」，讓對比自己說話
+      （鏡像結構第 9 招的視覺落地）。
+    - **ghost / 虛線視覺文法**：虛線框、半透明＝「隱形／被擋／未授權」；實線＋光點＝「成立的路徑」。
+      一套一致的視覺文法，觀眾看第二格就懂規則。
+    - **path + pulse 流動**：把資料流定義成一條路徑，光點沿路徑跑＝「正在發生」，比箭頭更能表達方向與時序。
+    - 要點：這是**內容層的構圖思路**（決定「演什麼、怎麼對比」）；**視覺實作交給
+      `slidev-deck-stack`（inline SVG / Vue 元件）或 `visual-web-stack`（網頁 canvas）**，
+      且務必尊重 `prefers-reduced-motion`——減少動態時定格在**能說明白的代表性一幀**，別讓它空轉。
+    → 對接：Assertion-Evidence（slide-craft.md）+ 鏡像結構（第 9 招）+ Duarte contrast（narrative-arcs.md §5）。
+
 ## 2. 資安 / 紅隊 / 雲端 talk 子節
 
 - **ATT&CK 當結構骨架** 用 MITRE ATT&CK tactic 順序（Initial Access → Execution → … →

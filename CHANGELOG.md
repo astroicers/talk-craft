@@ -2,6 +2,12 @@
 
 本專案的所有重大變更記錄於此。格式依循 [Keep a Changelog](https://keepachangelog.com/zh-TW/1.1.0/)，版本遵循 [Semantic Versioning](https://semver.org/lang/zh-TW/)。
 
+## [1.2.2] - 2026-07-05
+
+### Added
+
+- `references/field-patterns.md` §1 新增第 10 招「**動畫即解說（animated explainer）**」：caption 與動畫階段同步、before/after 對照迴圈、ghost 視覺文法、path+pulse 流動——講抽象機制的內容層構圖思路（視覺實作交給 slidev-deck-stack / visual-web-stack，並尊重 reduced-motion）。
+
 ## [1.2.1] - 2026-06-23
 
 ### Added
